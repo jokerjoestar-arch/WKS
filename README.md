@@ -8,7 +8,7 @@ To change the languaje open the "WKS.py" file whit a text editor and search the
 wp.set_lang("en")"
 you must change the "en" for your languaje: es, fr, etc.
 
-You can make an alias in your "Oh-My-Bash" or "Oh-My-Zsh" file
+You can make an alias in your ".bashrc" or ".zshrc" file
 
 Enjoy :)
 
