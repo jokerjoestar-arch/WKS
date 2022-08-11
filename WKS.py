@@ -1,9 +1,13 @@
 import wikipedia as wp
 
-#languaje def:
-wp.set_lang("en")
 
-search=input()
+
+ruta = 'languaje.txt'
+lang = open(ruta, 'r')
+#languaje def:
+wp.set_lang(lang.read())
+
+search=input("$")
 
 rese=wp.search(search, results=3)
 resu=wp.summary(search)
